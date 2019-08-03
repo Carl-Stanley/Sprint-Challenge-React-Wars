@@ -4,18 +4,20 @@ import styled from 'styled-components';
 const HeaderDiv = styled.div`   
     
     align="center";
-    width: 300px;
-    margin: 0 auto;
-    text-align: center;
+    width: 700px;
+    height: 150px;
+    margin-left: 10px;
 `;
-
 
 const StyledHeading3 = styled.h3`
 
-    font-size: 2rem;
-    color: Red;
-    
+    font-size: 1.5rem;
+    color: red;
+
 `;
+
+
+
 
 function Header () {
      
@@ -23,19 +25,15 @@ function Header () {
     return (
         
         
-        <div className="cards">
+        
             
-        <HeaderDiv>
-             
-           
-                        
-            <StyledHeading3>REACT WARS</StyledHeading3>
+        <HeaderDiv className="Header">
                      
-  
+                   
            
         </HeaderDiv>
     
-        </div>
+       
     );
     
     

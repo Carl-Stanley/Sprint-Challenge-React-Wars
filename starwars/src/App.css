@@ -4,13 +4,14 @@
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  background-image: url("../src/components/e719ef4e71466e5a1d74d2f83ac4cc2b.png") 
 }
 /* write your parent styles in here for your App.js */
 
 .cards { 
     
   width: 325px;
-  padding: 2px 16px;
+  padding: 5px 5px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);   
       
