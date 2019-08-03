@@ -19,10 +19,11 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration:  #ffff66;
+  color:  #ffff66;
 
 }
 
 a:visited {
-  color: blue;
+  color: #ffff66;
 }

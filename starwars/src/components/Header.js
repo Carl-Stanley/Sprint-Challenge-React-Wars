@@ -31,11 +31,9 @@ function Header () {
                      
                    
            
-        </HeaderDiv>
-    
+        </HeaderDiv>    
        
-    );
-    
+     );    
     
     
     };
