@@ -1,8 +1,8 @@
 import React, {useState,useEffect} from "react";
 import './App.css';
 import axios from "axios";
-import Card from './components/Card' 
-
+import Card from './components/Card'; 
+import Header from './components/Header';
 
 
 const App = () => {
@@ -30,12 +30,16 @@ const App = () => {
 
  
   return ( 
-
+    
+   <div>
+    <Header />
     <div className="cards">            
       
         {data.map(key=><Card props={key}/>)}
                    
-    </div>    
+    </div>  
+
+    </div>
   );
 }
 
