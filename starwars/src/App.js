@@ -22,7 +22,7 @@ const App = () => {
       
       setData(response.data.results); 
      
-      //console.log(response.data.results)
+      console.log(response.data.results)
 
     })  
     .catch(error => console.log('You got an error.', error))
@@ -39,7 +39,7 @@ const App = () => {
     
     <div className="cards">            
     
-        {data.map(key=><Card props={key}/>)}
+        {data.map( key=> (<Card props={key}/>))}
                    
     </div>  
 

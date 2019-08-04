@@ -49,28 +49,20 @@ function Card ({props}) {
         
         <div className="cards">
             
-        <WrapperDiv>
-             
-           
-                        <a href={url}> {props.name}</a>
-            <StyledHeading>Birth Year:   {props.birth_year}</StyledHeading>
-            <StyledHeading>Gender:   {props.gender}</StyledHeading>
-            <StyledHeading>Hair Color:   {props.hair_color}</StyledHeading>
-            <StyledHeading>Skin Color:   {props.skin_color}</StyledHeading>
-            <StyledHeading>Mass:   {props.mass}</StyledHeading>     
-                
-                  
-  
-           
-        </WrapperDiv>
+            <WrapperDiv>             
+            
+                            <a href={url}> {props.name}</a>
+                <StyledHeading>Birth Year:   {props.birth_year}</StyledHeading>
+                <StyledHeading>Gender:   {props.gender}</StyledHeading>
+                <StyledHeading>Hair Color:   {props.hair_color}</StyledHeading>
+                <StyledHeading>Skin Color:   {props.skin_color}</StyledHeading>
+                <StyledHeading>Mass:   {props.mass}</StyledHeading>  
+            
+            </WrapperDiv>
     
         </div>
-    );
+        );    
     
-    
-    
-    };
-    
-    
+    };    
 
     export default Card;

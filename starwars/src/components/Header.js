@@ -9,35 +9,13 @@ const HeaderDiv = styled.div`
     margin-left: 10px;
 `;
 
-const StyledHeading3 = styled.h3`
-
-    font-size: 1.5rem;
-    color: red;
-
-`;
-
-
-
-
-function Header () {
-     
+function Header () {     
     
     return (
-        
-        
-        
             
-        <HeaderDiv className="Header">
-                     
-                   
-           
-        </HeaderDiv>    
+        <HeaderDiv className="Header"></HeaderDiv>    
        
-     );    
-    
-    
+        );    
     };
     
-    
-
     export default Header;
