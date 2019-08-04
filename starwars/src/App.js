@@ -30,13 +30,10 @@ const App = () => {
 
  
   return ( 
-    
-   <div>
-
 
     
-    <Header  />
-    
+    <div className="App"><Header  />
+
     <div className="cards">            
     
         {data.map( key=> (<Card props={key}/>))}
@@ -44,6 +41,8 @@ const App = () => {
     </div>  
 
     </div>
+
+    
   );
 }
 

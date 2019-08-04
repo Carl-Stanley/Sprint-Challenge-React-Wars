@@ -1,11 +1,19 @@
 .App {
-  text-align: center;
+  
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;  
+  width: 800px;
+  height: auto;
+  justify-content: center;
 }
+
+  
 .Header {
   color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  text-shadow: 5px 5px 5px #fff;
   background-image: url("../src/components/e719ef4e71466e5a1d74d2f83ac4cc2b.png");
-  box-shadow: 3px 3px 3px 3px #ffff66;
+  box-shadow: 4px 4px 4px 4px #ffff66;
   
 }
 /* write your parent styles in here for your App.js */
@@ -13,8 +21,8 @@
 .cards { 
     
   width: 325px;
-  padding: 5px 5px;
+  padding: 5px 10px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);   
+  grid-template-columns: repeat(2, 1fr);   
       
 }
