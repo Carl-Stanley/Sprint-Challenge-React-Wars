@@ -36,7 +36,7 @@ const App = () => {
 
     <div className="cards">            
     
-        {data.map( key=> (<Card props={key}/>))}
+        {data.map( key=> (<Card key={key.name} props={key}/>))}
                    
     </div>  
 

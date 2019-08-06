@@ -6,6 +6,7 @@ const HeaderDiv = styled.div`
     width: 700px;
     height: 150px;
     padding-bottom: 20px;
+    
 `;
 
 function Header () {     
